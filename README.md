@@ -1,6 +1,6 @@
-# Placement WhatsApp Notifier
+#  WhatsApp Notifier
 
-Monitors **only** unread placement emails from `cvr.placement@gmail.com` and `alerts@haveloc.com`, parses full content (HTML + plain text), and forwards alerts to WhatsApp using **WhatsApp Web + Selenium** (no Twilio).
+Monitors **only** unread placement emails from `xyz.placement@gmail.com` and `alerts@abcdef.com`, parses full content (HTML + plain text), and forwards alerts to WhatsApp using **WhatsApp Web + Selenium** (no Twilio).
 
 ## Features
 
@@ -129,6 +129,3 @@ curl -X POST http://localhost:8000/check
 - The Chrome profile contains your WhatsApp Web session — protect that directory.
 - Run only on a machine you trust.
 
-## License
-
-MIT
