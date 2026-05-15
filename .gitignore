@@ -1,0 +1,9 @@
+.env
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+credentials.json
+token.json
+data/
+chrome_whatsapp_profile/
